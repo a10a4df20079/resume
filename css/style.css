@@ -1,0 +1,359 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+.all{
+	margin: 0 auto;
+	max-width: 1000px;
+	background: #fafafa;
+}
+.top{
+	background-image: url(https://github.com/hexschool/course-css-resume/blob/main/assets/img-headerShape.png?raw=true);
+	padding-bottom: 50px;
+	display: flex;
+	justify-content: space-around;
+	background-repeat: no-repeat;
+}
+.top-left{
+
+	padding-top: 150px;
+	margin-right: 500px;
+	font-family: Microsoft JhengHei;
+	
+}
+.top-left h1{
+	font-size: 30px;
+	padding-left: 25px;
+}
+.top-left p{
+	padding-left: 25px;
+	line-height: 20px;
+}
+.top-right{
+	margin-right: 80px;
+	width: 300px;
+	position: absolute;
+	right: 500px;
+	top: 140px;
+}
+.top-right li{
+	padding-top: 20px;
+	padding-left: 10px;
+	font-size: 20px;
+	color: white;
+}
+.top-right img{
+	margin-right: 10px;
+}
+.skill{
+	margin: 0 auto;
+	width: 1000px;
+}
+.skill h2{
+	font-size: 25px;
+	color: #1736dc;
+	font-weight: bold;
+	font-family: Microsoft JhengHei;
+	padding-left: 380px;
+}
+.list{
+	padding-top: 30px;
+	display: flex;
+	justify-content: center;
+}
+.skill-left, .skill-center, .skill-right{
+	background: #ffff;
+	width: 300px;
+	padding-top: 30px;
+	padding-bottom: 20px;
+	border: 2px solid #eaeaea;
+	border-radius: 10px;
+	margin: 0 auto;
+}
+.skill-left{
+	border-bottom: 10px solid #f58d23;    
+}
+.skill-center{
+	border-bottom: 10px solid #539e43;
+}
+.skill-right{
+	border-bottom: 10px solid #6762a6;
+}
+.skill img{
+	margin-left: 100px;
+}
+.skill-left h3, .skill-right h3{
+	font-size: 20px;
+	padding-top: 20px;
+	margin-left: 100px;
+}
+.skill-center h3{
+	font-size: 20px;
+	margin-left: 70px;
+	padding-top: 20px;
+}
+.list ul{
+	list-style-type: disc;
+	margin-left: 20px;
+	margin-top: 10px;
+	line-height: 30px;
+}
+.skill-left:hover, .skill-center:hover, .skill-right:hover{
+	box-shadow: 3px 5px 8px 2px #718093;
+}
+.experience{
+	width: 1000px;
+	margin: 0 auto;
+	margin-top: 30px;
+	padding-bottom: 800px;
+}
+.experience h2{
+	font-size: 25px;
+	color: #1736dc;
+	font-weight: bold;
+	font-family: Microsoft JhengHei;
+	padding-left: 430px;
+}
+.experience1, .experience2, .experience3{
+	border: 2px #fb56bf solid;
+	width: 300px;
+	border-radius: 10px;
+	margin: 10px;
+	padding: 10px;
+	line-height: 30px;
+}
+.dotstart{
+	position: absolute;
+    top: 100%;
+    left: 49%;
+}
+.experience1{
+	position: absolute;
+	right:28%;
+	top: 106%;
+
+}
+.experience2{
+	position: absolute;
+	left:28%;
+	top: 128%;
+
+}
+.experience3{
+	position: absolute;
+	right:28%;
+	top: 148%;
+}
+.line{
+	width: 5px;
+	height: 700px;
+	background: #d8d8d8;
+	position: absolute;
+	top: 950px;
+	right: 50%;
+}
+
+.pink1{
+position: absolute;
+top: 108%;
+left: 49.2%;
+}
+.pink2{
+position: absolute;
+top: 129%;
+left: 49.2%;
+}
+.pink3{
+position: absolute;
+top: 149%;
+left: 49.2%;
+}
+.bottomline{
+	width: 80px;
+	height: 5px;
+	background: #d8d8d8;
+	position: absolute;
+	bottom: -76%;
+	right: 48%;
+}
+.works{
+	width: 1000px;
+	margin: 0 auto;
+	display: flex;
+	padding-bottom: 150px;
+}
+.works h1{
+	font-size: 25px;
+	color: #1736dc;
+	font-weight: bold;
+	font-family: Microsoft JhengHei;
+	margin-left: 430px;
+	margin-top: 50px;
+}
+.works-left{
+	border: 1px solid #fdb4e3;
+	border-radius: 10px 10px 0 0;
+	background: #fdb4e3;
+	width: 800px;
+	height: 150px;
+	margin-right: 20px;
+}
+.works-left img{
+	width: 80%;
+	height: 80%;
+	padding-top: 30px;
+	padding-left: 65px;
+}
+.works-leftlist{
+	border: 1px #ffff solid;
+	border-radius: 0 0 10px 10px;
+}
+.works-centerlist{
+	border: 1px #ffff solid;
+	border-radius: 0 0 10px 10px;
+}
+.works-rightlist{
+	border: 1px #ffff solid;
+	border-radius: 0 0 10px 10px;
+}
+.works-leftlist:hover, .works-centerlist:hover, .works-rightlist:hover{
+	box-shadow: 3px 5px 8px 2px #718093;
+}
+
+.works-left h2{
+	padding-left: 10px;
+	padding-top: 20px;
+	line-height: 25px;
+	font-size: 25px;
+}
+.works-left p{
+	padding-left: 10px;
+}
+.works-center{
+	border: 1px solid #424242;
+	border-radius: 10px 10px 0 0;
+	background: #424242;
+	width: 800px;
+	height: 150px;
+	margin-right: 20px;
+}
+.works-center img{
+	width: 30%;
+	height: 60%;
+	padding-top: 30px;
+	padding-left: 100px;
+	margin-bottom: 30px;
+
+}
+.works-center h2{
+	padding-left: 10px;
+	padding-top: 20px;
+	line-height: 25px;
+	font-size: 25px;
+}
+.works-center p{
+	padding-left: 10px;
+}
+.works-right{
+	border: 1px solid #8ad7fa;
+	border-radius: 10px 10px 0 0;
+	background: #8ad7fa;
+	width: 800px;
+	height: 150px;
+	margin-right: 20px;
+}
+.works-right img{
+	width: 30%;
+	height: 60%;
+	padding-top: 30px;
+	padding-left: 100px;
+	margin-bottom: 30px;
+}
+.works-right h2{
+	padding-left: 10px;
+	padding-top: 20px;
+	line-height: 25px;
+	font-size: 25px;
+}
+.works-right p{
+	padding-left: 10px;
+}
+.about{
+	margin: 0 auto;
+	width: 1000px;
+}
+.about h2{
+	font-size: 25px;
+	color: #1736dc;
+	font-weight: bold;
+	font-family: Microsoft JhengHei;
+	padding-left: 430px;
+}
+.about1{
+	display: flex;
+	padding-bottom: 50px;
+}
+.about1 img{
+	padding-top: 50px;
+	padding-left: 700px;
+}
+.about1 p{
+	width: 200px;
+	padding-top: 50px;
+	padding-left: 150px;
+}
+.footer{
+	background-image: url(https://github.com/hexschool/course-css-resume/blob/main/assets/img-Looper-bg.png?raw=true);
+	margin: 0 auto;
+	width: 1000px;
+	padding-bottom: 20px;
+}
+.footer span{
+	padding-left: 350px;
+    display: block;
+	padding-top: 20px;
+}
