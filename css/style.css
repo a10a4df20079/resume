@@ -57,6 +57,7 @@ table {
 	display: flex;
 	justify-content: space-around;
 	background-repeat: no-repeat;
+	position: relative;
 }
 .top-left{
 
@@ -77,7 +78,7 @@ table {
 	margin-right: 80px;
 	width: 300px;
 	position: absolute;
-	right: 500px;
+	right: 80px;
 	top: 140px;
 }
 .top-right li{
@@ -150,6 +151,7 @@ table {
 	margin: 0 auto;
 	margin-top: 30px;
 	padding-bottom: 800px;
+	position: relative;
 }
 .experience h2{
 	font-size: 25px;
@@ -168,63 +170,61 @@ table {
 }
 .dotstart{
 	position: absolute;
-    top: 100%;
-    left: 49%;
+    top: 6%;
+    left: 48.1%;
 }
 .experience1{
 	position: absolute;
-	right:28%;
-	top: 106%;
+	right: 10%;
+	top: 10%;
 
 }
 .experience2{
 	position: absolute;
-	left:28%;
-	top: 128%;
+	left:8%;
+	top: 35%;
 
 }
 .experience3{
 	position: absolute;
-	right:28%;
-	top: 148%;
+	right:10%;
+	top: 58%;
 }
 .line{
 	width: 5px;
 	height: 700px;
 	background: #d8d8d8;
 	position: absolute;
-	top: 950px;
+	top: 8%;
 	right: 50%;
 }
 
 .pink1{
 position: absolute;
-top: 108%;
-left: 49.2%;
+top: 13%;
+left:48.5%;
 }
 .pink2{
 position: absolute;
-top: 129%;
-left: 49.2%;
+top: 37%;
+left: 48.5%;
 }
 .pink3{
 position: absolute;
-top: 149%;
-left: 49.2%;
+top: 60%;
+left: 48.5%;
 }
 .bottomline{
 	width: 80px;
 	height: 5px;
 	background: #d8d8d8;
 	position: absolute;
-	bottom: -76%;
-	right: 48%;
+	bottom: 7%;
+	right: 46.5%;
 }
 .works{
+    margin: 0 auto;
 	width: 1000px;
-	margin: 0 auto;
-	display: flex;
-	padding-bottom: 150px;
 }
 .works h1{
 	font-size: 25px;
@@ -232,10 +232,14 @@ left: 49.2%;
 	font-weight: bold;
 	font-family: Microsoft JhengHei;
 	margin-left: 430px;
-	margin-top: 50px;
+	margin-top: 5px;
+}
+.works ul{
+	display:flex;
+	justify-content: center;
+	padding-top: 20px;
 }
 .works-left{
-	border: 1px solid #fdb4e3;
 	border-radius: 10px 10px 0 0;
 	background: #fdb4e3;
 	width: 800px;
@@ -246,35 +250,10 @@ left: 49.2%;
 	width: 80%;
 	height: 80%;
 	padding-top: 30px;
-	padding-left: 65px;
-}
-.works-leftlist{
-	border: 1px #ffff solid;
-	border-radius: 0 0 10px 10px;
-}
-.works-centerlist{
-	border: 1px #ffff solid;
-	border-radius: 0 0 10px 10px;
-}
-.works-rightlist{
-	border: 1px #ffff solid;
-	border-radius: 0 0 10px 10px;
-}
-.works-leftlist:hover, .works-centerlist:hover, .works-rightlist:hover{
-	box-shadow: 3px 5px 8px 2px #718093;
+	padding-left: 63px;
 }
 
-.works-left h2{
-	padding-left: 10px;
-	padding-top: 20px;
-	line-height: 25px;
-	font-size: 25px;
-}
-.works-left p{
-	padding-left: 10px;
-}
 .works-center{
-	border: 1px solid #424242;
 	border-radius: 10px 10px 0 0;
 	background: #424242;
 	width: 800px;
@@ -289,17 +268,8 @@ left: 49.2%;
 	margin-bottom: 30px;
 
 }
-.works-center h2{
-	padding-left: 10px;
-	padding-top: 20px;
-	line-height: 25px;
-	font-size: 25px;
-}
-.works-center p{
-	padding-left: 10px;
-}
+
 .works-right{
-	border: 1px solid #8ad7fa;
 	border-radius: 10px 10px 0 0;
 	background: #8ad7fa;
 	width: 800px;
@@ -313,18 +283,21 @@ left: 49.2%;
 	padding-left: 100px;
 	margin-bottom: 30px;
 }
-.works-right h2{
-	padding-left: 10px;
-	padding-top: 20px;
-	line-height: 25px;
-	font-size: 25px;
+.works h3{
+	font-size: 20px;
+	padding-bottom: 10px;
 }
-.works-right p{
-	padding-left: 10px;
+.works p{
+	line-height: 18px;
 }
+.works-left:hover, .works-center:hover, .works-right:hover{
+	box-shadow: 3px 5px 8px 2px #718093;
+}
+
 .about{
 	margin: 0 auto;
 	width: 1000px;
+	margin-top: 150px;
 }
 .about h2{
 	font-size: 25px;
@@ -336,10 +309,12 @@ left: 49.2%;
 .about1{
 	display: flex;
 	padding-bottom: 50px;
+	max-width: 1000px;
+	margin: 0 auto;
 }
 .about1 img{
 	padding-top: 50px;
-	padding-left: 700px;
+    padding-left: 250px;
 }
 .about1 p{
 	width: 200px;
